@@ -20,6 +20,9 @@ public abstract class Duck {
 		System.out.println("All duck can swim!");
 	}
 	
+	public void setFlyBehavior(FlyBehavior fb){
+		this.flyBehavior = fb;
+	}
 	
 
 }
